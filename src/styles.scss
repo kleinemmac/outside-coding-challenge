@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  background-color: #09090a;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.appWrapper {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Button {
+  font-weight: bold;
+  border-radius: 6px;
+}

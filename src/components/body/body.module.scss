@@ -1,0 +1,47 @@
+.bodyWrapper {
+  margin-right: auto;
+  margin-left: auto;
+  flex-grow: 1;
+  color: #6A9CB5;
+  h2, h3 {
+    color: #b7c7d4;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
+  h3 {
+    color:#6A9CB5;
+  }
+  p {
+    color: #b7c7d4;
+  }
+  .spinner {
+    border-top-color: #3c3c3c;
+  }
+  .nameField {
+    margin: 15px;
+  }
+  button {
+    color: #6A9CB5;
+  }
+  .rockets, .launches {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px 15px;
+  }
+  .rocket, .launch {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    max-width: calc(100% - 20px);
+    flex-basis: 100%;
+    @media (min-width: 900px) {
+      flex-basis: 25%;
+      max-width: calc(25% - 20px);
+    }
+    border: 1px solid #4c1e3c;
+    margin: 10px;
+    padding: 10px;
+  }
+}
